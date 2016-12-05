@@ -1,11 +1,13 @@
 ---
 title: LukeWon.com Org Page
+pageurl: http://lukewon.com
+pagename: LukeWon.com
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>{{ title }}</title>
+  <title>{{ page.title }}</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -442,7 +444,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <a href="#" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p><a href="http://lukewon.com">LukeWon.com</a></p>
+  <p><a href="{{ page.pageurl }}">{{ page.pagename }}</a></p>
 </footer>
 
 <script>
